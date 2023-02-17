@@ -8,9 +8,16 @@
 //  for null 
 let name = null ;
 
-// for Boolean
+//  for Boolean
+const goingpark = 'true';
+if (goingpark){
+    console.log(" park time");
+} else {
+    console.log('no park time');
+}
 
-let x = " true";
-if (x){
-    console.log("lets party");
+// undefined
+let x;
+if (x === undefined) {
+  console.log("x is undefined");
 }
